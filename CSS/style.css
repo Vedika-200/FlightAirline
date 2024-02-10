@@ -1,0 +1,754 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bg {
+    background-color: #051722;
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.nav_Options a {
+    text-decoration: none;
+    font-size: 19px;
+    color: whitesmoke;
+}
+
+.Hero_bg {
+    background-image: url(../IMAGES/Airlines.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+}
+
+.head_Content {
+    padding: 150px 0;
+}
+
+.hero_head h2 {
+    font-size: 32px;
+    line-height: 1em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero_head span {
+    color: #3CB9E5;
+}
+
+.hero_head p {
+    padding: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.First_btn a {
+    background-color: #3CB9E5;
+    border: 2px solid #3CB9E5;
+    color: white;
+    border-radius: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+}
+.First_btn a{
+    text-decoration: none;
+}
+
+.Second_btn a {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+.Info a {
+    text-decoration: none;
+    color: white;
+}
+
+.info_box {
+    background-color: #073B5B;
+    background-image: url(../IMAGES/smiling-pleased-airline-employee-standing-at-the-a-HAF62K2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.info_box-2 {
+    background-color: #073B5B;
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 40px;
+}
+
+.info_box-2:hover {
+    background-image: url(../IMAGES/airplane-in-maintenance-service-NZ4GQJF.jpg);
+    transition: 1.5s;
+}
+
+.info_box-3 {
+    background-color: #073B5B;
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 40px;
+}
+
+.info_box-3:hover {
+    background-image: url(../IMAGES/airplane-cockpit-with-control-column-and-flight-di-HKF6AWE.jpg);
+    transition: 1.5s;
+}
+
+.Info_img img {
+    filter: grayscale(100%)invert(100%);
+}
+
+.info_Box-Content h1 {
+    line-height: 1em;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.info_Box-Content p {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Welcome_Background {
+    background-image: linear-gradient(90deg, #F8F8F8 55%, #FFFFFF 11%);
+    z-index: 2;
+}
+
+.hangar {
+    margin: 50px 0px 20px 0px;
+}
+
+.hangar h3 {
+    color: #0b2739;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.hangar h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: #073B5B;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.hangar span {
+    color: #3CB9E5;
+    font-weight: 700;
+}
+
+.hangar p {
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.hangar-btn a {
+    color: white;
+    background-color: #0B2739;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #0B2739;
+    line-height: 1.2em;
+    border-radius: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.Play_btn img {
+    filter: grayscale(100%)invert(100%);
+}
+
+.Play_btn a {
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    background-color: #3CB9E5;
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-radius: 50%;
+}
+
+.necessary {
+    background-color: #0B2739;
+}
+
+.Necessary_lists {
+    padding: 10px;
+}
+
+.List {
+    padding: 2em 0em 1em 0em;
+}
+
+.List img {
+    filter: grayscale(100%)invert(100%);
+}
+
+.List h3 {
+    font-size: 12px;
+    line-height: 1em;
+    color: #3CB9E5;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Aircrew {
+    position: relative;
+    z-index: 4;
+    border: 2px solid #FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.Dreams {
+    margin: 1em 1em 1em 1em;
+    box-shadow: 0px 16px 23px 2px rgb(0 0 0 / 13%);
+    background-color: #FFFFFF;
+    padding: 1em 2em 3em 2em;
+    margin-bottom: 20px;
+}
+
+.Dreams p {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Dreams h5 {
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.Our_class {
+    background-color: #0B2739;
+    padding: 3em 0em 15em 0em;
+}
+
+.Our_Class-Head h3 {
+    color: white;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+.Meet_Button a{
+    text-decoration: none;
+}
+
+.Our_Class-Head h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: #3CB9E5;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.Our_Class-Head span {
+    color: #FFFFFF;
+}
+
+.Our_Class-Head p {
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin: 10px 0;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.Right_Circle img{
+    filter: grayscale(100%)invert(100%);
+}
+.team_ppl{
+    padding: 1em;
+}
+.Ppl_Content{
+    padding: 15px 30px 15px 30px;
+    background-color: #3CB9E5;
+}
+.Ppl_Content h5{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.Ppl_Content p{
+    color: #0B2739;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.teams{
+    padding: 0em 1em 12em 1em;
+}
+.Stud_numbers{
+    padding: 0em 1em 1em 1em;
+}
+.Number_Content{
+    margin-top: 25px;
+}
+.Number_Content span{
+    font-size: 32px;
+    line-height: 1em;
+    color: #0B2739;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.Number_Content p{
+    color: #0B2739;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.Images_two{
+    padding: 1em;
+}
+.Team_Bg{
+    background-color: #0B2739;
+    padding: 2em;
+}
+.Our_Team-head h3 {
+    color: white;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.Our_Team-head h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: #3CB9E5;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.Our_Team-head span {
+    color: #FFFFFF;
+}
+.Our_Team-head p{
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin: 10px 0;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.Our_Team-head a{
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.right-arrow{
+    filter: grayscale(100%)invert(100%);
+}
+.New_Course{
+    background-image: url(../IMAGES/Airplane-4.png);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 9em 1em 6em 1em;
+}
+.New_Course-Content{
+    padding: 1em;
+}
+.New_Course-head h3 {
+    color: #0B2739;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.New_Course-head h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: #0B2739;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.New_Course-head span {
+    color: #3CB9E5;
+}
+.New_Course-head p{
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-weight: 600;
+
+    /* color: #FFFFFF; */
+}
+.Get-in{
+    background-color: #0B2739;
+    padding: 6em 1em 6em 1em;
+}
+.Get_in_touch h3 {
+    color: white;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.Get_in_touch h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.Get_in_touch span {
+    color: #3CB9E5;
+}
+.email{
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0px 16px 23px -2px rgb(0 0 0 / 13%);
+    border-radius: 150px 150px 150px 150px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+.Sub_btn {
+    padding: 15px 15px 15px 15px;
+    line-height: 1.5em;
+    font-size: 10px;
+    background-color: #073B5B;
+    box-shadow: 0px 16px 23px 2px rgb(0 0 0 / 13%);
+    color: white;
+    font-weight: 700;
+    border-radius: 150px;
+    border: none;
+    font-family: sans-serif;
+}
+.What_they{
+    padding: 6em 1em 1em 1em;
+}
+.They_Say h3 {
+    color: #0B2739;
+    font-size: 16px;
+    line-height: 1em;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 10px;
+}
+
+.They_Say h2 {
+    font-size: 24px;
+    line-height: 1em;
+    color: #0B2739;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.They_Say span {
+    color: #3CB9E5;
+}
+.Employ_talks{
+    background-color: #0B2739;
+    padding: 15px 30px 30px 30px;
+}
+.Employ_talks p{
+    color: #FFFFFF;
+    margin: 30px 0;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.Employ_detail strong{
+    color: #3CB9E5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: sans-serif;
+}
+.Employ_detail span{
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.menu_White{
+    filter: grayscale(100%)invert(100%);
+}
+.logoi{
+    padding: 3em 1em 3em 1em;
+}
+.Single_Logo{
+    padding: 1em;
+}
+.Footer{
+    padding: 4em 1em 2em 1em;
+    background-color: #051722;
+}
+.First_Footer p{
+    color: #B8B8B8;
+    margin: 20px 0;
+    font-size: 10px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.Main_footer h2{
+    font-size: 12px;
+    line-height: 1em;
+    color: #3CB9E5;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.nav-menu-option a{
+    font-size: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.end{
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.end a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.Team_Moving{
+    position: relative;
+    bottom: 200px;
+}
+.Meet_Button a{
+    /* text-decoration: none; */
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* Hover Effects */
+.nav_Options a:hover{
+    color: #3CB9E5;
+    transition: 0.5s;
+}
+.First_btn a:hover{
+    color: #3CB9E5;
+    background-color: white;
+    border-color: #FFFFFF;
+    transition: 0.5s;
+}
+.Second_btn a:hover{
+    color: #3CB9E5;
+    background-color: white;
+    border-color: #FFFFFF;
+    transition: 0.5s;
+}
+.hangar-btn a:hover{
+    color: white;
+    background-color: #3CB9E5;
+    border-color: #3CB9E5;
+    transition: 0.5s;
+}
+.team_ppl:hover{
+    transition: 0.5s;
+    margin-top: 1%;
+}
+.team_ppl:hover h5{
+    color: #051722;
+}
+.Sub_btn:hover{
+    color: white;
+    background-color: #3CB9E5;
+    border-color: #3CB9E5;
+    transition: 0.5s;
+}
+.nav-menu-option a:hover{
+    color: #3CB9E5;
+    transition: 0.5s;
+}
+
+
+
+
+@media(min-width:768px) {
+    .necessary {
+        position: relative;
+        top: -20px;
+        z-index: 3;
+        width: 90%;
+    }
+    .hero_head h2{
+        font-size: 72px;
+        line-height: 1em;
+    }
+    .First_btn a{
+        font-size: 15px;
+    }
+    .Second_btn a{
+        font-size: 15px;
+    }
+    .info_Box-Content h1{
+        font-size: 22px;
+        line-height: 1em;
+    }
+    .info_Box-Content p{
+        font-size: 13px;
+    }
+    .hangar h3{
+        font-size: 32px;
+    }
+    .hangar h2{
+        font-size: 48px;
+        width: 70%;
+    }
+    .hangar-btn a{
+        font-size: 15px;
+    }
+    .Play_btn a{
+        width: 60px;
+        height: 60px;
+    }
+    .List h3{
+        font-size: 14px;
+    }
+    .Dreams p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .Dreams h5{
+        font-size: 14px;
+    }
+    .Our_Class-Head h3{
+        font-size: 32px;
+    }
+    .Our_Class-Head h2{
+        font-size: 48px;
+    }
+    .Our_Class-Head p{
+        font-size: 16px;
+    }
+    .Ppl_Content h5{
+        font-size: 22px;
+    }
+    .Ppl_Content p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .Number_Content span{
+        font-size: 72px;
+    }
+    .Number_Content p{
+        font-size: 13px;
+    }
+    .Our_Team-head h3{
+        font-size: 32px;
+    }
+    .Our_Team-head h2{
+        font-size: 48px;
+    }
+    .Our_Team-head p{
+        font-size: 15px;
+    }
+    .New_Course-head h3{
+        font-size: 32px;
+    }
+    .New_Course-head h2{
+        font-size: 48px;
+        /* width: 80%; */
+    }
+    .New_Course-head p{
+        font-size: 15px;
+        font-style: 400;
+    }
+    .They_Say h3{
+        font-size: 32px;
+    }
+    .They_Say h2{
+        font-size: 48px;
+    }
+    .Employ_talks p{
+        font-size: 15px;
+    }
+    .First_Footer p{
+        font-size: 12px;
+    }
+    .nav-menu-option a{
+        font-size: 15px;
+    }
+    .end{
+        font-size: 13px;
+    }
+}
+
+@media(min-width:1200px) {
+    .Inf_boxes {
+        position: relative;
+        bottom: 50px;
+    }
+    .head_Content{
+        width: 50%;
+    }
+}
